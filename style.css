@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	background-color: rgba(118, 0, 0, 1);
+}
+
+header {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background: url(./banniere-vin.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card-white {
+	background-color: white;
+	width: 85%;
+	border-radius: 8px;
+	box-shadow: 4px 3px 9px 2px black;
+	margin: 32px auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.card-white-buying {
+	background-color: white;
+	width: 18%;
+	border-radius: 8px;
+	box-shadow: 4px 3px 9px 2px black;
+	margin: 24px auto;
+	text-align: center;
+	padding: 16px;
+}
+
+.card-white-about {
+	background-color: white;
+	width: 20%;
+	border-radius: 8px;
+	box-shadow: 4px 3px 9px 2px black;
+	margin: 24px auto;
+	text-align: center;
+	padding: 1px;
+}
+
+.card-white-quiz {
+	background-color: white;
+	width: 85%;
+	border-radius: 8px;
+	box-shadow: 4px 3px 9px 2px black;
+	margin: 24px auto;
+	text-align: center;
+	padding: 16px;
+}
+
+p, a {
+	font-family: 'overpass', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	font-family: 'chivo', sans-serif;
+}
+
+h2 {
+	color: rgba(118, 0, 0, 1);
+}
+
+#avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: left;
+}
+
+.btn-red {
+	background-color: rgba(118, 0, 0, 1);
+	color: white;
+	border: 14px black;
+	padding: 8px 16px;
+	font-weight: bold;
+	border-radius: 14px;
+}
+
+.btn-red:hover {
+	background-color: rgba(118, 0, 0, 1);
+	color: black;
+	transition: 0.5s;
+}
+
+.list-inline {
+	padding: 0;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline a {
+	text-decoration: none;
+	color: black;
+	font-size: 48px;
+}
+
+.list-inline a:hover {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 56px;
+	transition: 0.5s;
+}
+
+nav {
+	padding: 10px;
+	max-width: 100%;
+	overflow-x: auto;
+	border: none;
+	border-color: transparent;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	margin: 5px;
+	padding: 5px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
